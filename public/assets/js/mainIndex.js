@@ -6,7 +6,7 @@ function showHam(){
     <section>
         <p>(6) Internal Works <br> ©2020 c/o BASIC®</p>
         <p>A collection of internal project and initiatives under <br> the BASIC® brand.</p>
-        <div><img src="assets/Img/close_Hamburger.png" alt="" onclick="closeHam()"></div>
+        <div><img src="assets/img/close_Hamburger.png" alt="" onclick="closeHam()"></div>
     </section>
     <section class="hamCards">
         <section class="hamCardsSec">
