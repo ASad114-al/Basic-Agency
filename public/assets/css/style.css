@@ -325,9 +325,9 @@ header a:hover{
 
 
 footer{
-    background-color: #f4f4f4;
+    background-color: #252422;
     padding: 30vh 5% 0;
-    color: #252422;
+    color: #f4f4f4;
 }
 footer article{
     display: grid;
