@@ -9,7 +9,9 @@ function showHam(){
     <section>
         <p>(6) Internal Works <br> ©2020 c/o BASIC®</p>
         <p>A collection of internal project and initiatives under <br> the BASIC® brand.</p>
-        <div><img src="../Img/close_Hamburger.png" alt="" onclick="closeHam()"></div>
+        <div>  
+        <img src="../img/close_Hamburger.png " alt="" onclick="closeHam()">
+        </div>
     </section>
     <section class="hamCards">
         <section class="hamCardsSec">
@@ -18,7 +20,7 @@ function showHam(){
                 <div>01</div>
             </article>
             <article class="hamCardsArt">
-                <img class="hamImg" src="../Img/selected-work1.jpg" alt="">
+                <img class="hamImg" src="../img/selected-work1.jpg" alt="">
                 <div>
                     <h3>Culture Manual® ©2018</h3>
                     <p>Agency Culture & Onboarding</p>
@@ -33,7 +35,7 @@ function showHam(){
                 <div>02</div>
             </article>
             <article class="hamCardsArt">
-                <img class="hamImg" src="../Img/selected-work2.jpg" alt="">
+                <img class="hamImg" src="../img/selected-work2.jpg" alt="">
                 <div>
                     <h3>Moves® ©2019</h3>
                     <p>Our New HQ</p>
@@ -48,7 +50,7 @@ function showHam(){
                 <div>03</div>
             </article>
             <article class="hamCardsArt">
-                <img class="hamImg" src="../Img/selected-work3.jpg" alt="">
+                <img class="hamImg" src="../img/selected-work3.jpg" alt="">
                 <div>
                     <h3>Culture Manual® ©2018</h3>
                     <p>Agency Culture & Onboarding</p>
