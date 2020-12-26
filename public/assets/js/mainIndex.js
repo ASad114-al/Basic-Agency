@@ -1,5 +1,5 @@
 function showHam(){
-    console.log("open button is working")
+    console.log("working")
     document.getElementById("hamburger").className=("show");
     document.getElementById("hamburger").innerHTML = 
     `
@@ -15,7 +15,7 @@ function showHam(){
                 <div>01</div>
             </article>
             <article class="hamCardsArt">
-                <img class="hamImg" src="assets/Img/selected-work1.jpg" alt="">
+                <img class="hamImg" src="assets/img/selected-work1.jpg" alt="">
                 <div>
                     <h3>Culture Manual® ©2018</h3>
                     <p>Agency Culture & Onboarding</p>
@@ -30,7 +30,7 @@ function showHam(){
                 <div>02</div>
             </article>
             <article class="hamCardsArt">
-                <img class="hamImg" src="assets/Img/selected-work2.jpg" alt="">
+                <img class="hamImg" src="assets/img/selected-work2.jpg" alt="">
                 <div>
                     <h3>Moves® ©2019</h3>
                     <p>Our New HQ</p>
@@ -45,7 +45,7 @@ function showHam(){
                 <div>03</div>
             </article>
             <article class="hamCardsArt">
-                <img class="hamImg" src="assets/Img/selected-work3.jpg" alt="">
+                <img class="hamImg" src="assets/img/selected-work3.jpg" alt="">
                 <div>
                     <h3>Culture Manual® ©2018</h3>
                     <p>Agency Culture & Onboarding</p>
