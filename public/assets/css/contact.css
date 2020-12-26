@@ -42,37 +42,36 @@ main{
 
 
 
-#hero{
+#hero_2{
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 40vh;
 }
-#hero img{
+#hero_2 img{
     width: 100%;
 }
-#hero article{
+#hero_2 article{
     padding-left: 20px;
 }
-#hero h1{
+#hero_2 h1{
     font-size: 5em;
     margin-top: 100px;
 }
-#hero h4{
+#hero_2 h4{
     font-weight: 600;
     margin-bottom: 20px;
 }
-#hero a{
+#hero_2 a{
     color: black;
     margin-bottom: 50px;
 }
               
 #easy{
     font-size: .7em;
-    margin-top: 115%;
-    margin-left: -150%;
+ 
     
 }
-#hero article div div:nth-of-type(1) span{
+#hero_2 article div div:nth-of-type(1) span{
     display: inline-block;
     background-color: black;
     border-radius: 50%;
@@ -80,12 +79,12 @@ main{
     width: 30px;
     margin-right: 20px;
 }
-#hero article div{
+#hero_2 article div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 10vh;
 }
-#hero article div div{
+#hero_2 article div div{
     display: flex;
     flex-direction: column;
 }
@@ -182,14 +181,14 @@ main{
     margin: 0;
 }
 
-
+/* 
 body{
-    mix-blend-mode: overlay;
+  mix-blend-mode: overlay;  
     
-}
-header{
+} */
+/* header{
     mix-blend-mode: overlay;
-}
+} */
 .flurry {
     height: 100vh;
     
@@ -197,7 +196,7 @@ header{
   }
  .flurry:after {
     animation: mymove 8s steps(10) infinite;
-    background-image: url("../img/base.png");
+    /* background-image: url("../img/base.png"); */
     content: "";
     height: 300%;
     left: -50%;

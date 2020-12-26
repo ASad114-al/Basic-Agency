@@ -417,7 +417,7 @@ footer article:last-of-type p{
     src: url('../fonts/SctoGroteskA-Regular.woff2');
     font-weight: lighter;
 }
-/* .flurry {
+ .flurry {
     height: 100vh;
   }
 .flurry:after {
@@ -442,7 +442,7 @@ footer article:last-of-type p{
     70% { transform:translate(0%, 15%) }
     80% { transform:translate(3%, 35%) }
     90% { transform:translate(-10%, 10%) }
-  } */
+  } 
 
 
 body{
