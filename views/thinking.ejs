@@ -1,9 +1,9 @@
 <%- include('./partials/head') %> 
 
-
+  <main>
     <section id="hamburger" class="unshow"></section>
     <header id="header">
-        <div id="logo"><a href="/"><img src="assets/img/logo.svg" alt=""></a></div>
+        <div id="logo"><a href="/"><img src="assets/img/logo_pink.svg" alt=""></a></div>
         <nav>
             <ul>
                 <li><a href="/work">Work</a></li>
@@ -13,7 +13,7 @@
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
-        <div id="menu"><img src="assets/img/menu.svg" alt="" onclick="showHam()"></div>
+        <div id="menu"><img src="assets/img/menu_pink.svg" alt="" onclick="showHam()"></div>
     </header>
 
 
@@ -23,6 +23,24 @@
 
 
 
-
+</main>
     <%- include('./partials/footer') %> 
     <script src="assets/js/mainIndex.js"></script>
+
+    <style>
+        main{
+            background: #252422;
+            width: 105%;
+            margin-left: -5%;
+            
+        }
+        header a
+        {
+            color: #f9cdcd;
+        }
+      /*  footer,#footer_2
+       {
+           background: white;
+          
+       } */
+    </style>
