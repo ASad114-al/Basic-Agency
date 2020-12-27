@@ -1,3 +1,18 @@
+@font-face{
+    font-family: 'Scto';
+    src: url('../fonts/SctoGroteskA-Bold.woff2') format('woff2');
+    font-weight: bold;
+}
+@font-face{
+    font-family: 'Scto';
+    src: url('../fonts/SctoGroteskA-Medium.woff2');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Scto';
+    src: url('../fonts/SctoGroteskA-Regular.woff2');
+    font-weight: lighter;
+}
 #hero_about{
     margin-top: 5vh;
 }
@@ -79,5 +94,64 @@
 }
 figcaption{
     margin: -50px;
+}
+#basic_about h1{
+    font-size: 12em;
+    margin: 70px auto 50px;
+    font-weight: 900;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 40px;
+}
+.grid div{
+    width: 300px;
+}
+.grid  h4
+{
+    font-size: 1.7em;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.grid h2
+{ font-size: 2em;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+
+}
+.grid p{
+    margin-top: 20px;
+    font-family: 'Scto';
+    font-size: 1em;
+    
+}
+#point{
+    transform: translateX(137px);
+    text-align: right;
+}
+#point span{
+    font-size: 2.4em;   
+}
+
+#y_10, #y_5 {
+    grid-column: 2/3;
+   
+   
+}
+
+.grid + hr{
+    margin: 50px auto 30px;
+}
+
+#grid p{
+    line-height: 30px;
+}
+#grid3Text{
+    width: 200%;
+    margin-bottom: 30px;
 }
 
