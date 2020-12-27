@@ -29,7 +29,7 @@ hr{
     grid-template-columns: 30% 50% 20%;
     padding-bottom: 5vh;
 }
-.cards_news > img{
+.cards_news img{
     width: 100%;
 }
 .cards_news h6{
@@ -39,7 +39,7 @@ hr{
 .cards_news p span{
     padding-left: 50px;
 }
-.cards_news > div{
+.cards_news  div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -48,6 +48,7 @@ hr{
 .cards_news >div:last-of-type{
     display: flex;
     align-items: flex-end;  
+  
 }
 .cards_news div img{
     width: 20%;
