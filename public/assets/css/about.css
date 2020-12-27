@@ -150,8 +150,41 @@ figcaption{
 #grid p{
     line-height: 30px;
 }
+
 #grid3Text{
     width: 200%;
     margin-bottom: 30px;
+    font-size: 2.4em;
+}
+
+#showPictures{
+    margin-top: 15vh;
+    height: 140vh;
+}
+#showPictures a{
+    font-size: 5em;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f9cdcd;
+    display: block;
+}
+#showPictures sup{
+    font-size: 18px;
+    margin-top: 10px;
+    vertical-align: text-top;
+}
+#showPictures img{
+    display: none;
+}
+#showPictures div{
+    display: flex;
+    position: relative;
+}
+#first:hover img{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: -160px;
+    height: 80vh;
 }
 
