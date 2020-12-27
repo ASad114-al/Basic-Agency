@@ -15,7 +15,7 @@ function showHam(){
         <section class="hamCardsSec">
             <article>
                 <div class="line"></div>
-                <div>01</div>
+                <div class="num">01</div>
             </article>
             <article class="hamCardsArt">
                 <img class="hamImg" src="assets/img/selected-work1.jpg" alt="">
@@ -30,7 +30,7 @@ function showHam(){
         <section class="hamCardsSec">
             <article>
                 <div class="line"></div>
-                <div>02</div>
+                <div class="num">02</div>
             </article>
             <article class="hamCardsArt">
                 <img class="hamImg" src="assets/img/selected-work2.jpg" alt="">
@@ -45,7 +45,7 @@ function showHam(){
         <section class="hamCardsSec">
             <article>
                 <div class="line"></div>
-                <div>03</div>
+                <div class="num">03</div>
             </article>
             <article class="hamCardsArt">
                 <img class="hamImg" src="assets/img/selected-work3.jpg" alt="">
