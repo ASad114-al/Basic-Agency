@@ -1,5 +1,8 @@
 function showHam(){
     console.log("working")
+    document.querySelector("header").className=("unshow")
+    document.querySelector("main").className=("unshow")
+    document.querySelector("footer").className=("unshow")
     document.getElementById("hamburger").className=("show");
     document.getElementById("hamburger").innerHTML = 
     `
@@ -59,5 +62,8 @@ function showHam(){
 }
 function closeHam(){
     console.log("close button is working")
-    document.getElementById("hamburger").className=("unshow");   
+    document.getElementById("hamburger").className=("unshow");  
+    document.querySelector("header").className=("show")
+    document.querySelector("main").className=("show")
+    document.querySelector("footer").className=("show") 
 }
