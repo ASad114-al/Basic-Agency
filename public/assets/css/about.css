@@ -1,0 +1,83 @@
+#hero_about{
+    margin-top: 5vh;
+}
+#hero_about{
+    color: #f9cdcd;
+}
+#hero_about h1{
+    width: 30%;
+    margin-bottom: -70px;
+    font-size: 5em;
+    line-height: 70px;
+}
+#hero_about h4{
+    margin: 15vh auto 10vh 50%;
+    font-size: 1.7em;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+#into_about{
+    margin-left: 50%;
+    
+}
+.dot_about{
+    display: inline-block;
+    background-color: #f9cdcd;
+    border-radius: 50%;
+    height: 60px;   
+    width: 60px;
+    margin-right: 10px;
+}
+
+
+
+#bilder{
+    position: relative;
+    margin-top: 40vh;
+    display: block;
+    height: 150vh;
+}
+#bilder figure{
+    position: absolute;
+}
+#bilder img{
+    height: 80vh;
+}
+#bilder figure:nth-of-type(1){
+    left:22%;
+    z-index: 3;
+}
+#bilder figure:nth-of-type(2){
+    top:200px;
+    left:30%;
+    z-index: 4;
+}
+#bilder figure:nth-of-type(3){
+    top:100px;
+    right: 25%;;
+    z-index: 2;
+    display: flex;
+}
+#bilder figure:nth-of-type(4){
+    top: 350px;
+    right: 0;
+    z-index: 1;
+}
+#bilder figure:hover{
+    z-index: 5;
+}   
+#bilder p{
+    font-size: 1.2em;
+    margin: 10px;
+}
+#bilder p{
+    position: absolute;
+    top: 60vh;
+    font-size: .8em;
+    width: 10%;
+}
+figcaption{
+    margin: -50px;
+}
+

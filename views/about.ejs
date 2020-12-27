@@ -3,7 +3,7 @@
 
     <section id="hamburger" class="unshow"></section>
     <header id="header">
-        <div id="logo"><a href="/"><img src="assets/img/logo.svg" alt=""></a></div>
+        <div id="logo"><a href="/"><img src="assets/img/logo_pink.svg" alt=""></a></div>
         <nav>
             <ul>
                 <li><a href="/work">Work</a></li>
@@ -13,8 +13,45 @@
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
-        <div id="menu"><img src="assets/img/menu.svg" alt="" onclick="showHam()"></div>
+        <div id="menu"><img src="assets/img/menu_pink.svg" alt="" onclick="showHam()"></div>
     </header>
+    <main>
+        <section  id="hero_about">
+            <h1>WE TURN CULTURAL VALUE</h1>
+            <h1 id="into_about"><span class="dot_about"></span> INTO COMPANY VALUE</h1>
+            <h4>BASIC® is an independent branding & experience design company working at the intersection of culture, design, and technology. We value our craft, have a deep passion for progression, and exist to solve challenges for brands we believe in. Since the beginning, our mission has been to do great work and to have a great time doing it. We believe our mission has guided us well.</h4>
+            <hr>
+        </section>
+        <section>
+            <article  id="bilder">
+                <figure>
+                    <img src="assets/img/About-Gallery_4.jpg" alt="">
+                    <figcaption>
+                        <p>(01)</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/About-Gallery_2.jpg" alt="">
+                    <figcaption>
+                        <p>(02)</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/About-Gallery_3.jpg" alt="">
+                    <figcaption>
+                        <p>(03)</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/About-Gallery_1.jpg" alt="">
+                    <figcaption>
+                        <p>(04)</p>
+                    </figcaption>
+                </figure>
+                <p>EASY TO UNDERSTAND. IMPOSSIBLE TO IGNORE.™ BASIC®, INC 10 - 20©</p>
+            </article>
+        </section> 
+    </main>
 
 
 
@@ -24,7 +61,19 @@
 
 
 
-
+<style>
+    body{
+    font-family: 'Scto';
+    background-image: url(../Img/base.png);
+    background-color: #252422;
+    color: #f9cdcd;
+    overflow-x: hidden;
+    }
+    header a
+        {
+            color: #f9cdcd;
+        }
+</style>
 
     <%- include('./partials/footer') %> 
     <script src="assets/js/mainIndex.js"></script>
