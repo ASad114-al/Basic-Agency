@@ -10,7 +10,7 @@
                 <li><a href="/about">About</a></li>
                 <li><a href="/news">News</a></li>
                 <li><a href="/thinking">Thinking</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a class="contact_unterlind" href="/contact">Contact</a></li>
             </ul>
         </nav>
         <div id="menu"><img src="assets/img/menu.svg" alt="" onclick="showHam()"></div>
@@ -104,7 +104,12 @@
         </section>
     </main>
 
+  <style>
+      .contact_unterlind{
+          text-decoration: underline;
 
+      }
+  </style>
 
 
     <%- include('./partials/footer') %> 

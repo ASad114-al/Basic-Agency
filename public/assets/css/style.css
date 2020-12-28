@@ -260,21 +260,7 @@ footer article:last-of-type p{
     background-color: #181817;
     color: #f4f4f4;
 }
-/* ......... */
 
-/*  .flurry {
-    height: 100vh;
-  }
-.flurry:after {
-    animation: mymove 8s steps(10) infinite;
-    background-image: url("../img/base.png");
-    height: 300%;
-    left: -50%;
-    position: fixed;
-    top: -100%;
-    width: 300%;
-    z-index: -2;
-  } */
 
 
 body{
