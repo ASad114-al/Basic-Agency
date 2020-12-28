@@ -160,6 +160,7 @@ figcaption{
 #showPictures{
     margin-top: 15vh;
     height: 140vh;
+  
 }
 #showPictures a{
     font-size: 5em;
@@ -167,6 +168,10 @@ figcaption{
     text-decoration: none;
     color: #f9cdcd;
     display: block;
+    opacity: 0.5;
+}
+#showPictures a:hover{
+    opacity: 1;
 }
 #showPictures sup{
     font-size: 18px;
@@ -186,5 +191,6 @@ figcaption{
     right: 5%;
     top: -160px;
     height: 80vh;
+    
 }
 
