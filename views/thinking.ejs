@@ -1,6 +1,6 @@
 <%- include('./partials/head') %> 
 
-  <main>
+  
     <section id="hamburger" class="unshow"></section>
     <header id="header">
         <div id="logo"><a href="/"><img src="assets/img/logo_pink.svg" alt=""></a></div>
@@ -13,8 +13,79 @@
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
-        <div id="menu"><img src="assets/img/menu.svg" alt="" onclick="showHam()"></div>
+        <div id="menu"><img src="assets/img/menu_pink.svg" alt="" onclick="showHam()"></div>
     </header>
+    <main>
+        <section id="hero_cont">
+            <h1>THINKING</h1>
+            <div id="dot_cont"></div>
+            <div>
+                <h3>BRANDBEATS®</h3>
+                <p>Brandbeats® is our agency podcast garnering over 45,000+ listens per episode where we discuss industry happenings for 30 minutes as well as provide ten tracks of curated music. Our conversations are a candid exploration of design topics, branding trends, and experiences we’re noticing in culture.</p>
+            </div>
+            <div>
+                <h3>APPLIED®</h3>
+                <p>Applied® is our panel series and thought-leadership platform where we share perspectives and tactics related to strategy, design, and technology. The content is raw and driven by honest observations and guided questions that use culture to explain why trends exist and how they impact business and tech.</p>
+            </div>
+        </section>
+
+        <section id="cardSection_cont">
+            <hr>
+            <article id="cards_cont">
+                <img src="assets/img/think1.jpg" alt="">
+                <div>
+                    <div><h6>BRANDBEATS® PODCAST<br>S3.E13 <br>“ANALYTICS”</h6></div>
+                    <div><p>BRANDBEATS<span></span>11.21.19</p></div>
+                </div>
+                <div><img src="assets/img/arrow.svg" alt=""></div>
+            </article>
+            <hr>
+            <article id="cards_cont">
+                <img src="assets/img/think2.jpg" alt="">
+                <div>
+                    <div><h6>APPLIED® INSIGHTS NO/001 <br>“THE RISE OF UGLY”</h6></div>
+                    <div><p>APPLIED<span></span>11.15.19</p></div>
+                </div>
+                <div><img src="assets/img/arrow.svg" alt=""></div>
+            </article>
+            <hr>
+            <article id="cards_cont">
+                <img src="assets/img/think3.jpg" alt="">
+                <div>
+                    <div><h6>BRANDBEATS® PODCAST<br>S3.E12<br>“COMPLEXCON”</h6></div>
+                    <div><p>BRANDBEATS<span></span>11.13.19</p></div>
+                </div>
+                <div><img src="assets/img/arrow.svg" alt=""></div>
+            </article>
+            <hr>
+            <article id="cards_cont">
+                <img src="assets/img/think4.jpg" alt="">
+                <div>
+                    <div><h6>BRANDBEATS® PODCAST<br>S3.E11<br>“SPIRITUALITY IN BRANDING”</h6></div>
+                    <div><p>BRANDBEATS<span></span>10.24.19</p></div>
+                </div>
+                <div><img src="assets/img/arrow.svg" alt=""></div>                
+            </article>
+            <hr>
+            <article id="cards_cont">
+                <img src="assets/img/think5.jpg" alt="">
+                <div>
+                    <div><h6>BRANDBEATS® PODCAST<br>S3.E10<br>“CURENT EVENTS”</h6></div>
+                    <div><p>BRANDBEATS<span></span>08.27.19</p></div>
+                </div>
+                <div><img src="assets/img/arrow.svg" alt=""></div>
+            </article>
+            <hr>
+            <article id="cards_cont">
+                <img src="assets/img/think6.jpg" alt="">
+                <div>
+                    <div><h6>BRANDBEATS® PODCAST<br>S3.E09<br>“CAUSE CAMPAIGNS”</h6></div>
+                    <div><p>BRANDBEATS<span></span>09.24.19</p></div>
+                </div>
+                <div><img src="assets/img/arrow.svg" alt=""></div>
+            </article>
+        </section>
+    </main>
 
 
 
@@ -23,23 +94,53 @@
 
 
 
-</main>
-    <%- include('./partials/footer') %> 
+
+    <%- include('./partials/footer2') %> 
     <script src="assets/js/mainIndex.js"></script>
 
     <style>
-        main{
-            background: #252422;
-            width: 105%;
-            margin-left: -5%;
-            
-        }
-        header a
-        {
-            color: #f9cdcd;
-        }
+       
+       
         .unter_lind{
             text-decoration: underline;
         }
+        body{
+                font-family: 'Scto';
+                background-image: url(../Img/base.png);
+                background-color: #252422;
+                color: #f9cdcd;
+                overflow-x: hidden;
+                }
+                header a
+                {
+                color: #f9cdcd;
+                }
+                footer{
+               
+                background-color: #f4f4f4;
+                 color: #252422;
+                }
+            #social a
+                {
+                    color: #252422;
+                }
+                #social span,#stay{
+                 display: inline-block;
+                background-color:black;
+                border-radius: 50%;
+                height: 15px;   
+                width: 15px;
+                margin-right: 5px;
+
+                }
+                
+            #footer_2
+                {
+                background-color: #f4f4f4;
+                color: #181817;
+                }
+                footer h3 a{
+                color: #252422;
+                }
       
     </style>

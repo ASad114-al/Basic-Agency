@@ -100,30 +100,30 @@ figcaption{
     margin: 70px auto 50px;
     font-weight: 900;
 }
-.grid
+.grid_about
 {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     gap: 40px;
 }
-.grid div{
+.grid_about div{
     width: 300px;
 }
-.grid  h4
+.grid_about  h4
 {
     font-size: 1.7em;
     font-weight: 600;
     line-height: 40px;
     text-transform: uppercase;
 }
-.grid h2
+.grid_about h2
 { font-size: 2em;
     font-weight: 600;
     line-height: 40px;
     text-transform: uppercase;
 
 }
-.grid p{
+.grid_about p{
     margin-top: 20px;
     font-family: 'Scto';
     font-size: 1em;
@@ -147,7 +147,7 @@ figcaption{
     margin: 50px auto 30px;
 }
 
-#grid p{
+#grid_about p{
     line-height: 30px;
 }
 
