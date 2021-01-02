@@ -21,7 +21,7 @@ function showHam(){
                     <h3>Culture Manual® ©2018</h3>
                     <p>Agency Culture & Onboarding</p>
                     <button class="hamBtn">VISIT THE SITE</button>
-                    <div><p class="hamShowUp">To help strengthen our culture and attract world class talent, we created the Culture Manual – an online guide for new hires that differentiates the employee onboarding process and builds alignment for our collective future.</p></div>
+                    <div class="hamShowUp"><p >To help strengthen our culture and attract world class talent, we created the Culture Manual – an online guide for new hires that differentiates the employee onboarding process and builds alignment for our collective future.</p></div>
                 </div>
             </article>
         </section>

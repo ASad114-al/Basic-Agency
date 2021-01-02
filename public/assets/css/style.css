@@ -14,9 +14,6 @@
     src: url('../fonts/SctoGroteskA-Regular.woff2');
     font-weight: lighter;
 }
-body,h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-}
 .show{
     display: block;
 }
@@ -31,7 +28,7 @@ body,h1,h2,h3,h4,h5,h6,p{
     background-color: #f9cdcd;
     margin: 0 20px;
 }
-.num{
+.line+div{
     transform: translateX(30%);
     margin-top: 10px;
 }
@@ -39,7 +36,6 @@ body,h1,h2,h3,h4,h5,h6,p{
     font-family: 'Scto';
     background-color: #252422;
     color: #f9cdcd;
-   
     height: 100vh;
     padding: 30px 30px 0 100px;
     position: fixed;
@@ -53,31 +49,36 @@ body,h1,h2,h3,h4,h5,h6,p{
 #hamburger section:first-of-type p:nth-of-type(2){
     margin-left: -400px;
 }
-.hams
-{
-    width: 150%;
-}
 .hamCards{
     display: flex;    
-    height: 60vh;
+    height: 60vh; 
+   
+  
 }
 .hamCardsSec{
     display: flex;
     width: 32%;
     height: 90vh;
+   
+
 }
 .hamCardsArt{
-    overflow: hidden;   
+    overflow: hidden;  
+    
 }
 .hamCardsArt img{
     height: 75%;
     width: 100%;
 }
+.hamShowUp{
+    display: none;
+    transition: all 1s linear;
+}
 
 .hamImg:hover{
     height: 50%;
 }
-.hamImg:hover .hamShowUp{
+.hamCardsArt:hover .hamShowUp{
     display: block;
 }
 .hamCardsArt h3{
@@ -269,9 +270,9 @@ body{
     background-color: #f4f4f4;
     overflow-x: hidden;
 }
-body,h1,h2,h3,h4,h5,h6,p{
+/* body,h1,h2,h3,h4,h5,h6,p{
     margin: 0;
-}
+} */
 h1{
     font-size: 6em;
 }
@@ -474,3 +475,5 @@ h6{
     
 }
 /* ......... */
+
+  
