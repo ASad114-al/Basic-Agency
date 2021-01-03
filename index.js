@@ -33,6 +33,6 @@ app.get('/contact', (req, res) => {
 
 
 app.use(function (req, res, next) {
-    res.status(404).render('404');
+    res.status(404).render('404',{title:'404'});
 });
 app.listen(PORT, () => console.log(`Server running on: http://localhost:${PORT}`));
